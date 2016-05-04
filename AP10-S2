@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int angka;
+    cout<<"masukkan jumlah indeks : "; cin>>angka;
+
+    int A[angka];
+    for (int i=0; i<angka ; i++){
+        cout<<"Masukkan nilai array ["<<i<<"] = "; cin>>A[i];
+
+    }
+    cout<<"Nilai Indeks adalah = ";
+    for (int i=0 ; i<angka ; i++) {
+    cout<<"["<<A[i]<<"]";
+    }
+
+}
